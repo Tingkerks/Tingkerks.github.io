@@ -1,0 +1,229 @@
+header, section, footer
+{
+  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+  text-align: center;
+}
+
+header
+{
+  background-color: #676767;
+  padding: 0;
+}
+
+.about
+{
+  margin-top: 17px;
+  background-color: #FFFFFF;
+  height: 100%;
+ /* z-index: 1; */
+  position: absolute;
+}
+
+
+footer
+{
+ height:150px; 
+}
+
+
+.intro-box
+{
+  margin-top: 14.6%;
+  margin-bottom: 5%;
+  color: #FFFFFF;
+}
+
+
+.intro-start
+{
+  font-size: 25px;
+  color: #FFFFFF;
+  z-index: 20;
+  position: absolute;
+  bottom:10%;
+  left: 0%;
+  transform: translate(300%,-150%);
+  text-decoration: none;
+}
+
+.intro-start:active
+{
+  text-decoration: none!important;
+}
+
+.intro-name
+{
+  font-family: verdana;
+  font-size: 90px;
+  z-index: 20;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  top: 45%;
+  transform:translate(0%,-50%);
+}
+
+.content
+{
+      position: relative;
+      top: 80%;
+      
+      text-align: center;
+}
+
+.about-card
+{
+
+}
+
+.about-panel
+{
+  padding-top: 25px;
+}
+
+.about-titles
+{
+  position: relative;
+  text-align: center;
+  left: 15%;
+  transform:translate(-49%,40%);
+}
+
+.about-text
+{
+  text-align: center;
+}
+
+#about-me, #about-code
+{
+  position: absolute;
+  left: 10%;
+  bottom: 30%;
+  transform:translateX(10%);
+}
+
+#about-code
+{
+  transform:translate(10%,-10%);
+}
+
+.about-image
+{
+  position: relative;
+  right: 50%;
+  bottom: 20%;
+  transform:translate(-10%,-180%);
+  border-radius: 60px;
+  border: 5px #414A52 solid;
+
+}
+
+.about-me-text
+{
+  padding-top: 30px;
+}
+
+/*start of david css*/
+header a{
+  border: 5px #fff solid;
+  padding: 15px;
+}
+
+header a:hover{
+  border: 5px #5bc0de solid;
+  text-decoration: none;
+  color: #5bc0de;
+}
+header a:focus, header a:active{
+  color: white;
+  text-decoration: none!important;
+  
+}
+
+
+/*end of david css*/
+
+
+
+
+/*video*/
+
+
+
+
+/* Video object */
+.bv-video {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  right: 0%;
+  bottom: 50%;
+  top: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: 2;
+
+}
+
+#section1
+{
+  background-color: lightgrey;
+}
+
+#section2
+{
+  background-color: #414A52;
+}
+
+.skills-title
+{
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 5%;
+  font-size: 40px;
+  font-weight: 580;
+
+}
+
+#skills-html
+{
+  padding-top: 5%;
+}
+
+.skills-container
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.skill-text
+{
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.contacts
+{
+  background-color: #5bc0de;
+}
+
+.contacts-title
+{
+  font-size: 32px;
+  font-weight: 900;
+  font-family: verdana;
+  
+  transform:translateY(145%);
+  
+}
+
+.contacts1
+{
+  font-size: 32px;
+  font-weight: 400;
+}
+
